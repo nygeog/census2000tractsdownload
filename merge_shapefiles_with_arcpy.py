@@ -1,4 +1,6 @@
 import arcpy
+from arcpy import env
+env.overwriteOutput = True
 
 # RUN IN WINDOWS!!!!!!!!!!!!!!!!
 #you'll need ArcGIS to use the arcpy module 
